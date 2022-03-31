@@ -6,7 +6,7 @@ def message_handler(message):
     RECEIVED_MESSAGES += 1
     print("")
     print("Message received:")
-
+# test 
     # print data from both system and application (custom) properties
     for property in vars(message).items():
         print ("    {}".format(property))
