@@ -6,7 +6,7 @@ CONNECTION_STRING = "HostName=iot3bhwii22-es.azure-devices.net;DeviceId=Notebook
 
 def message_handler(message):
     global RECEIVED_MESSAGES
-    RECEIVED_MESSAGES += 1
+    RECEIVED_MESSAGES += 1 
     print("")
     print("Message received:")
 
